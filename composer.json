@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "lywzx\\epub\\": "src"
+            "bigswift13\\epub\\": "src"
         }
     },
     "autoload-dev": {
@@ -25,7 +25,10 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "php":">=7.0.0",
-        "erusev/parsedown": "1.7.4"
+        "php": "^8.2",
+        "ext-zip": "*",
+        "ext-libxml": "*",
+        "ext-simplexml": "*",
+        "ext-json": "*"
     }
 }
